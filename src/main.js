@@ -6,6 +6,7 @@ import Scaff from '@scaff/vite';
 
 /**
  * Issue: https://github.com/vitejs/vite/issues/3033
+ * `vite` 版本目前尚属于实验阶段，请勿删除或修改 `main.js` 文件
  * ========= ========== ==========
  */
 try {

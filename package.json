@@ -1,6 +1,7 @@
 {
   "name": "vue-scaff-vite",
   "version": "1.0.0",
+  "author": "joenix",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -8,15 +9,15 @@
   },
   "configAlias": "scaff.config",
   "dependencies": {
-    "@scaff/vite": "^3.5.10",
-    "ant-design-vue": "^3.0.0-alpha.14"
+    "@scaff/vite": "^3.5.14",
+    "ant-design-vue": "^3.0.0-alpha.16"
   },
   "devDependencies": {
-    "@scaff/typescript": "^3.5.10",
-    "@scaff/vite-plugin-node": "^3.5.9",
-    "@vitejs/plugin-vue": "^1.4.0",
-    "vite": "^2.6.14",
-    "vue-tsc": "^0.29.8"
+    "@scaff/typescript": "^3.5.15",
+    "@scaff/vite-plugin-node": "^3.5.14",
+    "@vitejs/plugin-vue": "^2.0.1",
+    "vite": "^2.7.9",
+    "vue-tsc": "^0.30.1"
   },
   "eslintConfig": {
     "root": true,

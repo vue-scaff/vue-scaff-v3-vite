@@ -8,7 +8,7 @@ import * as Icons from '@ant-design/icons-vue';
  * Scaffold by Joenix
  * ========== ========== ==========
  */
-export default ({ app, util, route, store, style, i18n, $http, md, custom }: object, next: any) => {
+export default ({ app, util, route, store, style, i18n, $http, md, custom }: object, next: void) => {
   // Extension Antv
   app.use(Antv);
 
@@ -22,5 +22,5 @@ export default ({ app, util, route, store, style, i18n, $http, md, custom }: obj
   next();
 
   // Special Console
-  console.log(`🅅🅄🄴 🅂🄲🄰🄵🄵`);
+  console.log(`🅅🅄🄴 ­­🅂🄲🄰🄵🄵`);
 };
