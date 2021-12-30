@@ -19,6 +19,13 @@
 
   <a-drawer v-model:visible="visible" :title="title" placement="right">
     <a-form>
+      <a-statistic-countdown :value="day1" @finish="countdown">
+        <template #title>
+          <span>1 Day Countdown</span>
+        </template>
+      </a-statistic-countdown>
+    </a-form>
+    <a-form>
       <a-form-item label="author">{{ author }}</a-form-item>
     </a-form>
     <a-form>
@@ -57,6 +64,8 @@
 <script>
 import { name, version, author } from '../../../package.json';
 
+import { message } from 'ant-design-vue';
+
 export default {
   data() {
     return {
@@ -67,6 +76,7 @@ export default {
       a: 10,
       b: 20,
       inputSpace: { width: `100px` },
+      day1: Date.now() + 1000 * 60,
     };
   },
 
@@ -79,6 +89,9 @@ export default {
   methods: {
     sholder() {
       this.visible = !this.visible;
+    },
+    countdown() {
+      message.info('Anita Mui - 1963.10.10', 6);
     },
   },
 };
