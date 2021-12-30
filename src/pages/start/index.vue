@@ -9,7 +9,7 @@
   <git :url="start.git" />
 
   <!-- Sholder -->
-  <shold> 1111 </shold>
+  <shold />
 
   <!-- Screen Welcome -->
   <screen class="welcome">
