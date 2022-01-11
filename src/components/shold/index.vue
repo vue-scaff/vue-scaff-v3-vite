@@ -21,7 +21,7 @@
     <a-form>
       <a-statistic-countdown :value="day1" @finish="countdown">
         <template #title>
-          <span>1 Day Countdown</span>
+          <span>Guess what will happen ?</span>
         </template>
       </a-statistic-countdown>
     </a-form>
