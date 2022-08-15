@@ -1,0 +1,54 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn -f
+
+PATH: 
+  /Users/joenix/.sdkman/candidates/gradle/current/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/joenix/Library/Android/sdk/tools:/Users/joenix/Library/Android/sdk/platform-tools
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.13.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)
+
+npm manifest: 
+  {
+    "name": "vue-scaff-vite",
+    "version": "1.0.0",
+    "author": "joenix",
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "serve": "vite preview"
+    },
+    "dependencies": {
+      "@scaff/vite": "^3.5.20",
+      "ant-design-vue": "^3.0.0-alpha.16"
+    },
+    "devDependencies": {
+      "@scaff/typescript": "^3.5.15",
+      "@scaff/vite-plugin-node": "^3.5.20",
+      "@vitejs/plugin-vue": "^2.0.1",
+      "vite": "^2.7.9",
+      "vue-tsc": "^0.30.1"
+    },
+    "browserslist": [
+      "> 1%",
+      "last 2 versions",
+      "not dead",
+      "not ie 11"
+    ],
+    "configAlias": "scaff.config"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

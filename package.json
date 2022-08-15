@@ -8,15 +8,15 @@
     "serve": "vite preview"
   },
   "dependencies": {
-    "@scaff/vite": "^3.5.20",
-    "ant-design-vue": "^3.0.0-alpha.16"
+    "@scaff/vite": "^3.5.71",
+    "ant-design-vue": "^3.3.0-beta.3"
   },
   "devDependencies": {
-    "@scaff/typescript": "^3.5.15",
-    "@scaff/vite-plugin-node": "^3.5.20",
-    "@vitejs/plugin-vue": "^2.0.1",
-    "vite": "^2.7.9",
-    "vue-tsc": "^0.30.1"
+    "@scaff/typescript": "^3.5.74",
+    "@scaff/vite-plugin-node": "^3.5.53",
+    "@vitejs/plugin-vue": "^3.0.3",
+    "vite": "^3.0.7",
+    "vue-tsc": "^0.40.1"
   },
   "browserslist": [
     "> 1%",
